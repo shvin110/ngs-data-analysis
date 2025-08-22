@@ -1,0 +1,53 @@
+#!/bin/bash
+
+usage(){
+echo "
+Written by Brian Bushnell
+Last modified May 30, 2025
+
+Description:  Aligns a query sequence to a reference using BandedAligner.
+The sequences can be any characters, but N is a special case.
+Outputs the identity, rstart, and rstop positions.
+Optionally prints a state space exploration map.
+This map can be fed to visualizealignment.sh to make an image.
+
+Usage:
+alignrandom.sh start mult steps iters buckets
+
+Please contact Brian Bushnell at bbushnell@lbl.gov if you encounter any problems.
+"
+}
+
+#This block allows symlinked shellscripts to correctly set classpath.
+pushd . > /dev/null
+DIR="${BASH_SOURCE[0]}"
+while [ -h "$DIR" ]; do
+  cd "$(dirname "$DIR")"
+  DIR="$(readlink "$(basename "$DIR")")"
+done
+cd "$(dirname "$DIR")"
+DIR="$(pwd)/"
+popd > /dev/null
+
+#DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/"
+CP="$DIR""current/"
+
+calcXmx () {
+    # Source the new scripts
+    source "$DIR""/memdetect.sh"
+    source "$DIR""/javasetup.sh"
+    
+    parseJavaArgs "--mem=8g" "--mode=fixed" "$@" simd
+    
+    # Set environment paths
+    setEnvironment
+}
+calcXmx "$@" simd
+
+align() {
+	local CMD="java $EA $EOOM $SIMD $XMX $XMS -cp $CP aligner.AlignRandom $@"
+	#echo $CMD >&2
+	eval $CMD
+}
+
+align "$@"

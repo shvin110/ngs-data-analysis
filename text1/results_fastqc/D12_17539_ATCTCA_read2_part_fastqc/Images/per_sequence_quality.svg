@@ -1,0 +1,99 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="800" height="600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<rect width="800" height="600" x="0" y="0" style="fill:rgb(238,238,238);stroke:none"/>
+<rect width="800" height="600" x="0" y="0" style="fill:rgb(255,255,255);stroke:none"/>
+<text x="2" y="566" fill="rgb(0,0,0)" font-family="Arial" font-size="12">0</text>
+<text x="2" y="487" fill="rgb(0,0,0)" font-family="Arial" font-size="12">2000</text>
+<text x="2" y="407" fill="rgb(0,0,0)" font-family="Arial" font-size="12">4000</text>
+<text x="2" y="327" fill="rgb(0,0,0)" font-family="Arial" font-size="12">6000</text>
+<text x="2" y="248" fill="rgb(0,0,0)" font-family="Arial" font-size="12">8000</text>
+<text x="2" y="168" fill="rgb(0,0,0)" font-family="Arial" font-size="12">10000</text>
+<text x="2" y="88" fill="rgb(0,0,0)" font-family="Arial" font-size="12">12000</text>
+<text x="278" y="30" fill="rgb(0,0,0)" font-family="Arial" font-size="12">Quality score distribution over all sequences</text>
+<line x1="45" y1="560" x2="790" y2="560" stroke="rgb(0,0,0)" stroke-width="1"/>
+<line x1="45" y1="560" x2="45" y2="40" stroke="rgb(0,0,0)" stroke-width="1"/>
+<text x="281" y="595" fill="rgb(0,0,0)" font-family="Arial" font-size="12">Mean Sequence Quality (Phred Score)</text>
+<text x="51" y="575" fill="rgb(0,0,0)" font-family="Arial" font-size="12">3</text>
+<rect width="21" height="520" x="66" y="40" style="fill:rgb(230,230,230);stroke:none"/>
+<text x="72" y="575" fill="rgb(0,0,0)" font-family="Arial" font-size="12">4</text>
+<text x="93" y="575" fill="rgb(0,0,0)" font-family="Arial" font-size="12">5</text>
+<rect width="21" height="520" x="108" y="40" style="fill:rgb(230,230,230);stroke:none"/>
+<text x="114" y="575" fill="rgb(0,0,0)" font-family="Arial" font-size="12">6</text>
+<text x="135" y="575" fill="rgb(0,0,0)" font-family="Arial" font-size="12">7</text>
+<rect width="21" height="520" x="150" y="40" style="fill:rgb(230,230,230);stroke:none"/>
+<text x="156" y="575" fill="rgb(0,0,0)" font-family="Arial" font-size="12">8</text>
+<text x="177" y="575" fill="rgb(0,0,0)" font-family="Arial" font-size="12">9</text>
+<rect width="21" height="520" x="192" y="40" style="fill:rgb(230,230,230);stroke:none"/>
+<text x="194" y="575" fill="rgb(0,0,0)" font-family="Arial" font-size="12">10</text>
+<rect width="21" height="520" x="234" y="40" style="fill:rgb(230,230,230);stroke:none"/>
+<text x="236" y="575" fill="rgb(0,0,0)" font-family="Arial" font-size="12">12</text>
+<rect width="21" height="520" x="276" y="40" style="fill:rgb(230,230,230);stroke:none"/>
+<text x="278" y="575" fill="rgb(0,0,0)" font-family="Arial" font-size="12">14</text>
+<rect width="21" height="520" x="318" y="40" style="fill:rgb(230,230,230);stroke:none"/>
+<text x="320" y="575" fill="rgb(0,0,0)" font-family="Arial" font-size="12">16</text>
+<rect width="21" height="520" x="360" y="40" style="fill:rgb(230,230,230);stroke:none"/>
+<text x="362" y="575" fill="rgb(0,0,0)" font-family="Arial" font-size="12">18</text>
+<rect width="21" height="520" x="402" y="40" style="fill:rgb(230,230,230);stroke:none"/>
+<text x="404" y="575" fill="rgb(0,0,0)" font-family="Arial" font-size="12">20</text>
+<rect width="21" height="520" x="444" y="40" style="fill:rgb(230,230,230);stroke:none"/>
+<text x="446" y="575" fill="rgb(0,0,0)" font-family="Arial" font-size="12">22</text>
+<rect width="21" height="520" x="486" y="40" style="fill:rgb(230,230,230);stroke:none"/>
+<text x="488" y="575" fill="rgb(0,0,0)" font-family="Arial" font-size="12">24</text>
+<rect width="21" height="520" x="528" y="40" style="fill:rgb(230,230,230);stroke:none"/>
+<text x="530" y="575" fill="rgb(0,0,0)" font-family="Arial" font-size="12">26</text>
+<rect width="21" height="520" x="570" y="40" style="fill:rgb(230,230,230);stroke:none"/>
+<text x="572" y="575" fill="rgb(0,0,0)" font-family="Arial" font-size="12">28</text>
+<rect width="21" height="520" x="612" y="40" style="fill:rgb(230,230,230);stroke:none"/>
+<text x="614" y="575" fill="rgb(0,0,0)" font-family="Arial" font-size="12">30</text>
+<rect width="21" height="520" x="654" y="40" style="fill:rgb(230,230,230);stroke:none"/>
+<text x="656" y="575" fill="rgb(0,0,0)" font-family="Arial" font-size="12">32</text>
+<rect width="21" height="520" x="696" y="40" style="fill:rgb(230,230,230);stroke:none"/>
+<text x="698" y="575" fill="rgb(0,0,0)" font-family="Arial" font-size="12">34</text>
+<rect width="21" height="520" x="738" y="40" style="fill:rgb(230,230,230);stroke:none"/>
+<text x="740" y="575" fill="rgb(0,0,0)" font-family="Arial" font-size="12">36</text>
+<line x1="45" y1="560" x2="790" y2="560" stroke="rgb(180,180,180)" stroke-width="1"/>
+<line x1="45" y1="481" x2="790" y2="481" stroke="rgb(180,180,180)" stroke-width="1"/>
+<line x1="45" y1="401" x2="790" y2="401" stroke="rgb(180,180,180)" stroke-width="1"/>
+<line x1="45" y1="321" x2="790" y2="321" stroke="rgb(180,180,180)" stroke-width="1"/>
+<line x1="45" y1="242" x2="790" y2="242" stroke="rgb(180,180,180)" stroke-width="1"/>
+<line x1="45" y1="162" x2="790" y2="162" stroke="rgb(180,180,180)" stroke-width="1"/>
+<line x1="45" y1="82" x2="790" y2="82" stroke="rgb(180,180,180)" stroke-width="1"/>
+<line x1="55" y1="560" x2="76" y2="560" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="76" y1="560" x2="97" y2="560" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="97" y1="560" x2="118" y2="560" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="118" y1="560" x2="139" y2="560" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="139" y1="560" x2="160" y2="560" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="160" y1="560" x2="181" y2="560" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="181" y1="560" x2="202" y2="560" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="202" y1="560" x2="223" y2="560" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="223" y1="560" x2="244" y2="560" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="244" y1="560" x2="265" y2="560" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="265" y1="560" x2="286" y2="560" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="286" y1="560" x2="307" y2="560" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="307" y1="560" x2="328" y2="560" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="328" y1="560" x2="349" y2="560" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="349" y1="560" x2="370" y2="560" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="370" y1="560" x2="391" y2="560" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="391" y1="560" x2="412" y2="558" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="412" y1="558" x2="433" y2="557" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="433" y1="557" x2="454" y2="556" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="454" y1="556" x2="475" y2="555" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="475" y1="555" x2="496" y2="553" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="496" y1="553" x2="517" y2="551" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="517" y1="551" x2="538" y2="549" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="538" y1="549" x2="559" y2="547" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="559" y1="547" x2="580" y2="546" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="580" y1="546" x2="601" y2="543" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="601" y1="543" x2="622" y2="541" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="622" y1="541" x2="643" y2="537" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="643" y1="537" x2="664" y2="530" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="664" y1="530" x2="685" y2="523" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="685" y1="523" x2="706" y2="510" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="706" y1="510" x2="727" y2="485" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="727" y1="485" x2="748" y2="413" stroke="rgb(136,34,85)" stroke-width="1"/>
+<line x1="748" y1="413" x2="769" y2="40" stroke="rgb(136,34,85)" stroke-width="1"/>
+<rect width="183" height="23" x="607" y="40" style="fill:rgb(255,255,255);stroke:none"/>
+<rect width="183" height="23" x="607" y="40" rx="0" ry="0" style="fill:none;stroke-width:1;stroke:rgb(192,192,192)"/>
+<text x="610" y="55" fill="rgb(136,34,85)" font-family="Arial" font-size="12" font-weight="bold">Average Quality per read</text>
+</svg>
